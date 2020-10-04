@@ -1,6 +1,7 @@
 import LogLevel from "./LogLevel";
 import globalContext from "./globalContext";
 import postToSlack from "./postToSlack";
+import serializeErrorInContext from "./serializeErrorInContext";
 import toLogLevelName from "./toLogLevelName";
 
 export type LogWritePosition = {
@@ -31,6 +32,7 @@ export default function writeLogWith({
     }
 
     function writeToSlack(context: unknown, message: string): void {
+      serializeErrorInContext(context);
       const content = JSON.stringify(
         { timestamp: now(), componentName, fileName, context },
         null,
