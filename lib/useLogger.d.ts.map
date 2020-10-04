@@ -1,0 +1,1 @@
+{"version":3,"file":"useLogger.d.ts","sourceRoot":"","sources":["../src/useLogger.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,cAAc,EAAE,gBAAgB,EAAE,MAAM,gBAAgB,CAAC;AAGlE,OAAO,MAAM,MAAM,UAAU,CAAC;AAM9B,MAAM,CAAC,OAAO,UAAU,SAAS,CAAC,EAChC,aAAa,EACb,QAAQ,EACR,YAEkB,EAClB,UAEiB,EACjB,kBAA8B,GAC/B,EAAE,gBAAgB,GAAG,OAAO,CAAC,cAAc,CAAC,GAAG,MAAM,CAkBrD"}
