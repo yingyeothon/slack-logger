@@ -158,6 +158,11 @@
     "@typescript-eslint/types" "4.3.0"
     eslint-visitor-keys "^2.0.0"
 
+"@yingyeothon/logger@^0.3.1":
+  version "0.3.1"
+  resolved "https://registry.yarnpkg.com/@yingyeothon/logger/-/logger-0.3.1.tgz#21a95a83ad198ff703fee1399b8fd140ff73631a"
+  integrity sha512-mSkNwUvQfPVFlJabW65b93fwrcvtiGqYyHwp7utkknrjKyIh5JdzPHzsi1CWkzRprlCGlZZMTxEkifcKOVcK4Q==
+
 acorn-jsx@^5.2.0:
   version "5.3.1"
   resolved "https://registry.yarnpkg.com/acorn-jsx/-/acorn-jsx-5.3.1.tgz#fc8661e11b7ac1539c47dbfea2e72b3af34d267b"
